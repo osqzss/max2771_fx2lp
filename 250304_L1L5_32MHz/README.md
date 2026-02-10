@@ -31,6 +31,6 @@ The flowchart
 
 <img src="demo_galileo.png">
 
-demonstrates how to implement Galileo decoding with GNU Radio including the code
+demonstrates how to implement GPS L1 and Galileo E1 decoding with GNU Radio including the code
 generation as custom Python block sources, based on the Python scripts found at
 https://github.com/pmonta/GNSS-DSP-tools.
