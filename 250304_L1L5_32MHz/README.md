@@ -24,3 +24,13 @@ so interleaved 8-bit integers sampled at 32 MS/s. Files processed using the GNU 
 matching the observed constellation
 
 <img src="Screenshot_20250304-093028.png" width=320>
+
+## GNU Radio demonstration
+
+The flowchart
+
+<img src="demo_galileo.png">
+
+demonstrates how to implement Galileo decoding with GNU Radio including the code
+generation as custom Python block sources, based on the Python scripts found at
+https://github.com/pmonta/GNSS-DSP-tools.

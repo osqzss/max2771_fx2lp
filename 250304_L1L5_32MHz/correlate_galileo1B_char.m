@@ -29,7 +29,7 @@ Rsb=6.138e6;
 
 f=fopen('1h.bin'); 
 fs=32e6 
-freq0=[-1.0e4:200:1.0e4];
+freq0=[-1.0e4:50:1.0e4];
 d=fread(f,fs/200,'int8'); d=d(1:2:end)+j*d(2:2:end);
 d=d-mean(d);
 code=interpolated(codes_E1B(:,1),fs/1.023e6);

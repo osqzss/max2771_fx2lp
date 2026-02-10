@@ -39,9 +39,9 @@ temps=[0:length(d)-1]'/fs;
 for essai=1:2
   for m=1:36 % size(codes_E1B)(2)
     if (essai==1)
-    code=interpolated(codes_E5aI(:,m),fs/10.23e6)+interpolated(codes_E5aQ(:,m),fs/10.23e6);
+    code=interpolated(codes_E5aI(:,m),fs/10.23e6)+j*interpolated(codes_E5aQ(:,m),fs/10.23e6);
     else
-    code=interpolated(codes_E5aI(:,m),fs/10.23e6)-interpolated(codes_E5aQ(:,m),fs/10.23e6);
+    code=interpolated(codes_E5aI(:,m),fs/10.23e6)-j*interpolated(codes_E5aQ(:,m),fs/10.23e6);
     end
     u=1;            % sweep
     for freq=freq0  % sweep

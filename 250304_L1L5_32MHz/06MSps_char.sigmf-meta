@@ -1,0 +1,22 @@
+{
+  "global": {
+    "antenna:gain": 1,
+    "antenna:type": "none",
+    "core:version": "1.0.0",
+    "core:datatype": "ci8",
+    "core:description": "L1/E1 band recording",
+    "core:sample_rate": 6E6,
+    "core:author": "Jean-Michel Friedt",
+    "core:recorder": "GNU Radio",
+    "core:hw": "Ettus Research B210",
+    "core:license": "CC BY-SA"
+  },
+    "captures": [
+        {
+            "core:sample_start": 0,
+            "core:frequency": 1575.42E6
+        }
+    ],
+    "annotations": []
+}
+
